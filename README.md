@@ -1,6 +1,6 @@
 # angucake
 
-Attempt to recreate Jan Ranostaj's post on Auth in CakePHP 3 and AngularJS:
+Attempt to recreate [Jan Ranostaj's](https://medium.com/@ranostaj) post on Auth in CakePHP 3 and AngularJS:
 
 https://medium.com/@ranostaj/cakephp-3-login-with-angularjs-7f89bab4c20
 
