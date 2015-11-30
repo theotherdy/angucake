@@ -6,6 +6,7 @@ https://medium.com/@ranostaj/cakephp-3-login-with-angularjs-7f89bab4c20
 
 With this DB:
 
+```
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(10) unsigned NOT NULL,
   `username` varchar(255) NOT NULL,
@@ -19,5 +20,5 @@ INSERT INTO `users` (`id`, `username`, `password`) VALUES
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
-
+```
 
