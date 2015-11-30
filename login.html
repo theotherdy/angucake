@@ -1,0 +1,18 @@
+<form  class="panel-body wrapper-lg" method="post"  ng-submit="ctrl.login()">
+
+    <div ng-if="ctrl.errors" class="alert alert-danger text-md">
+        <i class="fa fa-warning"></i> {{ctrl.errors}}  
+    </div>
+
+    <div class="form-group">
+        <input type="text" ng-model="ctrl.formData.username"  placeholder="Username" 
+        class="form-control input-xlg" />
+    </div>
+
+    <div class="form-group">
+        <input type="password"  ng-model="ctrl.formData.password"  placeholder="Password" class="form-control input-xlg">
+    </div>
+     
+    <button type="submit"   class="btn btn-primary">Login </button>
+
+</form>
